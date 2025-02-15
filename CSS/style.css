@@ -1,0 +1,30 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.container-texto{
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.container-imagem{
+    display: flex;
+    gap: 20px;
+}
+
+.wrapper img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+html{
+    background-image: url(https://www.acidadeon.com/tudoep/wp-content/uploads/sites/10/2024/08/capybara-8028980_1280_2024-08-12_17-48-59-1280x700.webp);
+    background-size: 100%;
+    background-attachment: fixed;
+}
