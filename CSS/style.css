@@ -1,7 +1,25 @@
 html{
-    background-image: url(https://www.acidadeon.com/tudoep/wp-content/uploads/sites/10/2024/08/capybara-8028980_1280_2024-08-12_17-48-59-1280x700.webp);
+    background-image: url(../Imagens/cypher.jpg);
     background-size: 100%;
     background-attachment: fixed;
+}
+
+
+p{
+    background-color: #b3b3b3;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+
+table, th, td{
+    border: 1px solid;
+    border-radius: 10px;
+    background-color: #f0b801;
+    border-color: #ca8a00;
+    text-align: center;
+    padding: 10px;
 }
 
 
@@ -14,61 +32,38 @@ html{
     margin-bottom: 20px;
     text-align: center;
     margin-top: 40px;
+    font-family: 'Courier New';
 }
 
 
-.container {
+.container{
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-}
-
-
-.container2{
-    padding: 20px;
     border-radius: 10px;
+    font-family: 'Courier New'; 
     display: flex;
-    gap: 20px; 
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    gap: 40px;
 }
 
 
 .container-titulo-secao{
     background-color: #b3b3b3;
+    margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
-    margin-bottom: 20px;
-    max-width: max-content;
+    height: fit-content;
+    width: 721px;
 }
 
 
-.container-tabela table, th, td{
-    border: 2px solid;
-    border-radius: 5px;
-    background-color: #f0b801;
-    border-color: #ca8a00;
-    text-align: center;
-    margin-bottom: 20px;
-    width: 560px;
+.container-tabela{
+   height: auto;
 }
 
-
-.container-texto{
-    background-color: #b3b3b3;
-    padding: 20px;
-    border-radius: 10px;
-    margin-bottom: 20px;
-}
-
-
-.container-imagem{
-    display: flex;
-    gap: 20px;
-}
-
-
-.wrapper img{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    border-radius: 10px;
+.container-prg{
+    width: 762px;
 }
