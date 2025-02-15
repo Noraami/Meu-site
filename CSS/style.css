@@ -5,7 +5,7 @@
 }
 
 .container-texto{
-    background-color: #e0f7fa;
+    background-color: #b3b3b3;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -27,4 +27,15 @@ html{
     background-image: url(https://www.acidadeon.com/tudoep/wp-content/uploads/sites/10/2024/08/capybara-8028980_1280_2024-08-12_17-48-59-1280x700.webp);
     background-size: 100%;
     background-attachment: fixed;
+}
+
+.container-titulo{
+    max-width: 500px;
+    margin: 400px auto;
+    padding: 20px;
+    background-color: #f0b801;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align: center;
+    margin-top: 40px;
 }
