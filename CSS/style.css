@@ -6,7 +6,7 @@ html{
 
 
 p{
-    background-color: #b3b3b3;
+    background-color: #5989c7;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
@@ -14,12 +14,23 @@ p{
 
 
 table, th, td{
-    border: 1px solid;
+    border: 2px solid;
     border-radius: 10px;
-    background-color: #f0b801;
-    border-color: #ca8a00;
+    background-color: #fead78;
+    border-color: #dd8d57;
     text-align: center;
     padding: 10px;
+}
+
+th {
+    border: 2px solid;
+    border-radius: 10px;
+    background-color: #5989c7;
+    border-color: #5989c7;
+    text-align:center;
+    padding: 10px;
+    height: fit-content;
+    font-family: 'Gill Sans MT';
 }
 
 
@@ -27,12 +38,13 @@ table, th, td{
     max-width: 500px;
     margin: 400px auto;
     padding: 20px;
-    background-color: #f0b801;
+    background-color: #f5a623;
     border-radius: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     text-align: center;
     margin-top: 40px;
-    font-family: 'Courier New';
+    font-family: 'Gill Sans';
+    font-size: 20px;
 }
 
 
@@ -41,29 +53,42 @@ table, th, td{
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
-    font-family: 'Courier New'; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: stretch;
-    gap: 40px;
+    font-family: Calibri; 
+    gap: 20px;
+    display:grid;
+    grid-template-columns: 7fr 5fr;
+    justify-items: stretch;
+    grid-template-areas: 'aside article';
+    
+}
+
+aside{
+    grid-area: aside;
+}
+
+article{
+    grid-area: article;
 }
 
 
 .container-titulo-secao{
-    background-color: #b3b3b3;
+    background-color: #b9b9b9;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
-    height: fit-content;
-    width: 721px;
+    height: 50px;
+    width: auto;
+    font-family: 'Gill Sans MT';
+    
 }
 
 
 .container-tabela{
    height: auto;
+   
 }
 
 .container-prg{
-    width: 762px;
+    margin-top: 110px;
+    width: auto;
 }
