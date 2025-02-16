@@ -5,26 +5,45 @@ html{
 }
 
 
+aside{
+    grid-area: aside;
+}
+
+article{
+    grid-area: article;
+}
+
+section{
+    grid-area: section;
+}
+
+
 p{
     border-radius: 10px;
     margin-bottom: 20px;
     font-size: large;
+    font-family: courier;
 }
 
+
+span{
+    font-style: italic;
+    letter-spacing: 2px;
+}
 
 table, th, td{
     border: 2px solid;
     border-radius: 10px;
-    background-color: #fead78;
-    border-color: #dd8d57;
+    background-color: #b9b9b9;
+    border-color: #b9b9b9;
     text-align: center;
     padding: 10px;
 }
 
 td{
-    background-color: #dd8d57;
-    width: auto;
+    background-color: #f5a623;
     border-radius: 10px;
+    font-family: Courier;
 }
 
 
@@ -33,10 +52,8 @@ th {
     border-radius: 10px;
     background-color: #5989c7;
     border-color: #5989c7;
-    text-align:center;
-    padding: 10px;
-    height: 20px;
-    font-family: 'Gill Sans MT';
+    font-family:monospace;
+    font-size: large;
 }
 
 
@@ -58,22 +75,13 @@ th {
     width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    border-radius: 10px;
-    font-family: Calibri; 
+    border-radius: 10px; 
     gap: 30px;
     display:grid;
     grid-template-columns: 7fr 5fr;
     justify-items: stretch;
-    grid-template-areas: 'aside article';
+    grid-template-areas: 'aside article' 'section section';
     
-}
-
-aside{
-    grid-area: aside;
-}
-
-article{
-    grid-area: article;
 }
 
 
@@ -84,13 +92,8 @@ article{
     border-radius: 10px;
     height: auto;
     width: auto;
-    font-family: 'Gill Sans MT';
+    font-family:monospace;
     
-}
-
-
-.container-tabela{
-   height: auto; 
 }
 
 .container-menu{
@@ -100,9 +103,17 @@ article{
     border-radius: 10px;
     height: auto;
     width: auto;
-    font-family: 'Gill Sans MT';  
+    font-family:monospace;  
 }
 
 ul a{
     color:#000000;  
+    font-family:monospace;
+    font-size: larger;
+}
+
+a{
+    color:#000000;  
+    font-family:monospace;
+    font-size: larger;
 }
