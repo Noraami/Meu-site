@@ -6,10 +6,9 @@ html{
 
 
 p{
-    background-color: #5989c7;
-    padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
+    font-size: large;
 }
 
 
@@ -20,7 +19,6 @@ table, th, td{
     border-color: #dd8d57;
     text-align: center;
     padding: 10px;
-    width: fit-content;
 }
 
 td{
@@ -37,7 +35,7 @@ th {
     border-color: #5989c7;
     text-align:center;
     padding: 10px;
-    height: fit-content;
+    height: 20px;
     font-family: 'Gill Sans MT';
 }
 
@@ -57,12 +55,12 @@ th {
 
 
 .container{
-    max-width: 1200px;
+    width: 1200px;
     margin: 0 auto;
     padding: 20px;
     border-radius: 10px;
     font-family: Calibri; 
-    gap: 100px;
+    gap: 30px;
     display:grid;
     grid-template-columns: 7fr 5fr;
     justify-items: stretch;
@@ -79,12 +77,12 @@ article{
 }
 
 
-.container-titulo-secao{
+.container-descricao{
     background-color: #b9b9b9;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
-    height: 50px;
+    height: auto;
     width: auto;
     font-family: 'Gill Sans MT';
     
@@ -92,11 +90,19 @@ article{
 
 
 .container-tabela{
-   height: auto;
-   
+   height: auto; 
 }
 
-.container-prg{
-    margin-top: 110px;
+.container-menu{
+    background-color:#CED7F7;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
     width: auto;
+    font-family: 'Gill Sans MT';  
+}
+
+ul a{
+    color:#000000;  
 }
