@@ -1,24 +1,24 @@
-html{
+html {
     background-image: url(../Imagens/cypher.jpg);
     background-size: 100%;
     background-attachment: fixed;
 }
 
 
-aside{
+aside {
     grid-area: aside;
 }
 
-article{
+article {
     grid-area: article;
 }
 
-section{
+section {
     grid-area: section;
 }
 
 
-p{
+p {
     border-radius: 10px;
     margin-bottom: 20px;
     font-size: large;
@@ -26,12 +26,14 @@ p{
 }
 
 
-span{
+span {
     font-style: italic;
     letter-spacing: 2px;
 }
 
-table, th, td{
+table,
+th,
+td {
     border: 2px solid;
     border-radius: 10px;
     background-color: #b9b9b9;
@@ -41,7 +43,7 @@ table, th, td{
     width: 500px;
 }
 
-td{
+td {
     background-color: #f5a623;
     border-radius: 10px;
     font-family: Courier;
@@ -53,12 +55,12 @@ th {
     border-radius: 10px;
     background-color: #5989c7;
     border-color: #5989c7;
-    font-family:monospace;
+    font-family: monospace;
     font-size: large;
 }
 
 
-.container-titulo{
+.container-titulo {
     max-width: 500px;
     margin: 400px auto;
     padding: 20px;
@@ -72,56 +74,63 @@ th {
 }
 
 
-.container{
+.container {
     width: 1200px;
     margin: 0 auto;
     padding: 20px;
-    border-radius: 10px; 
+    border-radius: 10px;
     gap: 50px;
-    display:grid;
+    display: grid;
     grid-template-columns: 7fr 5fr;
     justify-items: stretch;
     grid-template-areas: 'aside article' 'section section';
     justify-content: space-between;
 
-    
+
 }
 
 
-.container-descricao{
+.container-descricao {
     background-color: #fead78;
     margin-bottom: 44px;
     padding: 20px;
     border-radius: 10px;
     height: auto;
     width: auto;
-    font-family:monospace;
-    
+    font-family: monospace;
+
 }
 
-.container-menu{
-    background-color:#b9b9b9;
+.container-menu {
+    background-color: #b9b9b9;
     margin-bottom: 43px;
     padding: 20px;
     border-radius: 10px;
     height: auto;
     width: auto;
-    font-family:monospace;  
+    font-family: monospace;
 }
 
-ul a{
-    color:#000000;  
-    font-family:monospace;
+ul a {
+    color: #000000;
+    font-family: monospace;
     font-size: larger;
 }
 
-a{
-    color:#000000;  
-    font-family:monospace;
+a {
+    color: #000000;
+    font-family: monospace;
     font-size: larger;
 }
 
-.container-image img{
+video {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.container-image img {
     width: 100%;
     height: auto;
     object-fit: cover;
@@ -130,21 +139,34 @@ a{
 
 }
 
-#lore{
+#lore {
     background-color: #5989c7;
     padding: 20px;
     border-radius: 10px;
     height: auto;
     width: auto;
-    font-family:monospace;
+    font-family: monospace;
+    margin-bottom: 45px;
 }
 
-#bio{
+#bio {
     background-color: #f5a623;
     margin-bottom: 20px;
     padding: 20px;
     border-radius: 10px;
     height: auto;
     width: auto;
-    font-family:monospace;
+    font-family: monospace;
+}
+
+#play {
+    background-color: #b9b9b9;
+    margin-bottom: 15px;
+    padding: 20px;
+    border-radius: 10px;
+    height: auto;
+    width: auto;
+    font-family: monospace;
+    text-align: center;
+    font-size: large;
 }
