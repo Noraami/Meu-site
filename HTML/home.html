@@ -1,52 +1,55 @@
-<html>
+<!DOCTYPE html> <!--informing which "instruction manual" he shuold use to built the page-->
+<html> <!--this tag means the start of the HTML document-->
 
-<head>
+<head><!--Aqui vão as informações do cabecalho, que só o navegador ve -->
 
-	<meta charset="UTF-8">
+	<meta charset="UTF-8"><!--necessario para o navegadpr identificar o conjunto de caraceres da lingua portuguesa-->
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Cypher</title>
+	<!--necessario para o site se adaptar ao tamanho do dispositivo-->
 
+	<title>Cypher</title><!--Adiciona um titulo a guia-->
 
-	<link rel="stylesheet" href="../CSS/style.css">
-
-	<div class="container-titulo">
+	<link rel="stylesheet" href="../CSS/style.css"> <!--conecta um aquivo css ao nosso site-->
+	<div class="container-titulo"> <!--Cria uma divisão que podemos estilizar com css-->
 		<h1>Cypher</h1>
 	</div>
 
 </head>
 
-<body>
+<body><!--aqui é o corpo do site-->
 	<div class="container">
 
-		<aside>
+		<aside> <!--indica uma das divisoes da grade do site-->
 
 			<div class="container-menu">
 				<nav>
-					<ul>
+					<ul><!--cria uma lista não ordenada-->
 						<h3>
 							<li><a href="#tabela">1. Informações Básicas</a></li>
+							<!--<li> define um elemento da lista, <a> cria um hiperlink-->
 							<li><a href="#descricao">2. Descrição Oficial</a></li>
-							<li><a href="#bio"">3. Biografia</a></li>
-							<li><a href=" #lore"">4. História</a></li>
-							<li><a href=" #play"">5. Play com Cypher</a></li>
+							<li><a href="#bio">3. Biografia</a></li>
+							<li><a href=" #lore">4. História</a></li>
+							<li><a href=" #play">5. Play com Cypher</a></li>
 						</h3>
 					</ul>
 				</nav>
 			</div>
 
-			<div class=" container-descricao" id="descricao">
+			<div class=" container-descricao" id="descricao"><!--ID é o nome do conjunto de informacoes seguintes -->
 
-									<h2>Descrição Oficial</h2>
-									<div class="container-prg">
-										<p>
-											<Span><strong>Cypher</strong></Span>, um vendedor de informações do
-											Marrocos, é uma verdadeira rede de
-											vigilância de um homem só que fica de olho em cada movimento dos inimigos.
-											Nenhum segredo está a salvo.
-											Nenhuma manobra passa despercebida. Cypher está sempre vigiando.
-										</p>
-									</div>
+				<h2>Descrição Oficial</h2>
+				<div class="container-prg">
+					<p>
+						<Span><strong>Cypher</strong></Span>, um vendedor de informações
+						do<!--<span> utilizado para marcar uma parte do texto, <strong> destaque uma parte do texto-->
+						Marrocos, é uma verdadeira rede de
+						vigilância de um homem só que fica de olho em cada movimento dos inimigos.
+						Nenhum segredo está a salvo.
+						Nenhuma manobra passa despercebida. Cypher está sempre vigiando.
+					</p>
+				</div>
 
 			</div>
 
@@ -89,28 +92,29 @@
 			</div>
 			<div id="play">
 				<h2>Play com Cypher</h2>
-				<video src="../Imagens/Play Cypher - Ascent Bomb B.mp4" controls muted></video>
+				<video src="../Imagens/Play Cypher - Ascent Bomb B (1).mp4" controls
+					muted></video><!--coloca um video no site-->
 			</div>
-			
+
 
 		</section>
 
 		<article id="tabela">
 			<div class="container-tabela">
 
-				<table>
+				<table> <!--Cria uma tabela-->
 
-					<thead>
-						<tr>
-							<th colspan="2">
+					<thead><!--Indica o cabecalho de uma tabela-->
+						<tr><!--Indica uma linha da tabela-->
+							<th colspan="2"><!--Indica uma celula do cabecalho mesclada-->
 								<h3>Informações Básicas</h3>
 							</th>
 						</tr>
 					</thead>
 
-					<tbody>
+					<tbody><!-- Indica o corpo da tabela-->
 						<tr>
-							<td>Nome Real</td>
+							<td>Nome Real</td><!--Indica uma celula-->
 							<td>Amir El Amari</td>
 						</tr>
 						<tr>
@@ -127,7 +131,7 @@
 						</tr>
 						<tr>
 							<td>Número do Agente</td>
-							<td>06</td>
+							<td>05 || 06</td>
 						</tr>
 						<tr>
 							<th colspan="2">
@@ -147,7 +151,7 @@
 							<td>Assalto Neural</td>
 						</tr>
 					</tbody>
-					<tfoot>
+					<tfoot><!--Indica o rodape da tabela-->
 						<tr>
 							<th colspan="2">
 								<h3>Mais Informações</h3>
@@ -163,7 +167,7 @@
 
 			</div>
 			<div class="container-image">
-				<img src="../Imagens/bind.jpg">
+				<img src="../Imagens/bind.jpg"><!--coloca uma imagem no site-->
 			</div>
 		</article>
 
